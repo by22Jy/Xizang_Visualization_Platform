@@ -26,16 +26,11 @@ npm run serve
 ```
 
 
-
-
-
 #### 开发修改历程
 
 > 2.19 进度及需求分析
 
-
-
-
+<img width="1724" alt="image-20240219161845964" src="https://github.com/MucOtto/Xizang_Visualization_Platform/assets/122969909/ad160bcb-6573-4b8d-9d32-1b7844d2c032">
 
 #### 需求分析
 
@@ -65,10 +60,7 @@ npm run serve
 
 #### 实现效果
 
-![image-20240219220901319](/Users/bytedance/Library/Application Support/typora-user-images/image-20240219220901319.png)
-
-
-
+<img width="1724" alt="image-20240219220901319" src="https://github.com/MucOtto/Xizang_Visualization_Platform/assets/122969909/b60ccfcc-afcc-4fad-b8f7-00c059af5da0">
 
 
 
@@ -101,8 +93,8 @@ npm run serve
 
 ​		4、注册vuex组件来管理全局变量，实现局部显示与关闭效果
 
-![image-20240220181240949](/Users/bytedance/Library/Application Support/typora-user-images/image-20240220181240949.png)
 
+<img width="1727" alt="image-20240220181240949" src="https://github.com/MucOtto/Xizang_Visualization_Platform/assets/122969909/38383652-95c0-44f9-a691-ebec0987d4df">
 
 
 > 2.21 实现评论栏
@@ -126,9 +118,8 @@ npm run serve
 > 右上角时钟实现随现实时间变化的效果
 
 
+<img width="1722" alt="image-20240221005935360" src="https://github.com/MucOtto/Xizang_Visualization_Platform/assets/122969909/17413e81-db74-4d03-bc15-7accdec16147">
 
 
-
-![image-20240221005935360](/Users/bytedance/Library/Application Support/typora-user-images/image-20240221005935360.png)
 
 整体画面略显单薄 多增加一个图表
