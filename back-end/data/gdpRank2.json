@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "拉萨市",
+    "value": 747.57,
+    "increment": 5.73,
+    "growthRate": 0.77
+  },
+  {
+    "id": 2,
+    "name": "日喀则市",
+    "value": 361.92,
+    "increment": 13.66,
+    "growthRate": 3.92
+  },
+  {
+    "id": 3,
+    "name": "昌都市",
+    "value": 298.28,
+    "increment": 19.04,
+    "growthRate": 6.82
+  },
+  {
+    "id": 4,
+    "name": "山南市",
+    "value": 242.98,
+    "increment": 5.71,
+    "growthRate": 2.41
+  },
+  {
+    "id": 5,
+    "name": "林芝市",
+    "value": 208.29,
+    "increment": -0.72,
+    "growthRate": -0.34
+  },
+  {
+    "id": 6,
+    "name": "那曲市",
+    "value": 193.2,
+    "increment": 6.34,
+    "growthRate": 3.39
+  },
+  {
+    "id": 7,
+    "name": "阿里地区",
+    "value": 80.51,
+    "increment": 2.86,
+    "growthRate": 3.68
+  }
+]

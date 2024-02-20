@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "布达拉宫",
+    "imgUrl": "https://data.tibetcn.com/pictures/potala-palace15.jpg",
+    "introduction": "无论是到过或是未踏足西藏的人，对西藏总有一种说不清的情结，对那千年布达拉宫更是情有独钟。所以来到拉萨的第一站，也一定不会错过布达拉宫。",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 20:10:47",
+    "deleted": 0
+  },
+  {
+    "id": 2,
+    "name": "纳木错",
+    "imgUrl": "https://data.tibetcn.com/pictures/namtso32.jpg",
+    "introduction": "纳木错湖是西藏第二大湖泊，也是中国第三大的咸水湖，同时也是世界上海拔最高的咸水湖。",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 21:39:12",
+    "deleted": 0
+  },
+  {
+    "id": 3,
+    "name": "羊卓雍错",
+    "imgUrl": "https://data.tibetcn.com/pictures/yangzhuoyongcuo.jpg",
+    "introduction": "羊卓雍措的湖水面积638平方公里，湖面海拔4,441米，水深30～60米。站在海拔4950米的岗巴拉山顶向南眺望，其湖面平静，一片翠蓝，仿佛镶崁在群峰之中的一颗蓝宝石。从拉萨到羊湖需要翻越5030米的岗巴拉山口。\n",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 21:39:12",
+    "deleted": 0
+  },
+  {
+    "id": 4,
+    "name": "珠穆朗玛峰",
+    "imgUrl": "https://data.tibetcn.com/pictures/everest2.jpg",
+    "introduction": "珠峰大本营是为了保护珠峰核心区而设立的一片保护地带，是观赏拍摄珠峰的最好位置之一。主要提供游客住宿，有卫生间、帐篷还有纪念碑，上面刻有上面刻有“珠穆朗玛峰大本营，海拔5200m”字样，许多游客都会在这里合影。\n珠峰大本营有着非比寻常的旅游意义，每年都吸引着这无数海内外游客前来瞻仰世界第一高峰的美丽。珠峰大本营则是非登山者能到达的距离珠峰最近的地方。站在珠峰脚下，世界之巅就在眼前。",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 20:10:47",
+    "deleted": 0
+  },
+  {
+    "id": 5,
+    "name": "八廓街",
+    "imgUrl": "https://data.tibetcn.com/pictures/bakuojie2.jpg",
+    "introduction": "八廓街是拉萨著名的转经道和最大的商业街，环绕着大昭寺而立，历经了岁月的变迁，现在已经是一条烟火气息十足的老街。一整片旧式的，浓郁藏族生活的街区，比较完整地保存了拉萨古城的原貌。八廓街街道两边店铺林立，旅行商店、酒店民宿、网红餐厅都在这里寻找商机，让朝圣者、当地居民、游客、商贩、外国友人等齐聚在这里。",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 16:54:46",
+    "deleted": 0
+  },
+  {
+    "id": 6,
+    "name": "大昭寺",
+    "imgUrl": "https://data.tibetcn.com/pictures/dazhaosi-jinding.jpg",
+    "introduction": "大昭寺是松赞干布建造的藏传佛教寺庙，是拉萨最有名的寺庙，距今1350年的历史。甚至拉萨也是来源于这座寺庙的最初名字“惹萨”，所以有着“去拉萨而没有到大昭寺就等于没有去过拉萨”的俗语。\n",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 21:39:12",
+    "deleted": 0
+  },
+  {
+    "id": 7,
+    "name": "雅鲁藏布大峡谷",
+    "imgUrl": "https://data.tibetcn.com/pictures/daxiagu-chuan.jpg",
+    "introduction": "雅鲁藏布大峡谷长504.9公里，平均深度5000米，最深处达6009米，是世界上最大的峡谷。\n",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 21:39:12",
+    "deleted": 0
+  },
+  {
+    "id": 8,
+    "name": "巴松措",
+    "imgUrl": "https://data.tibetcn.com/pictures/bamtso.jpg",
+    "introduction": "巴松措是西藏东部最大的堰塞湖之一，湖水包围在原始森林及雪山怀抱之中，与世隔绝，犹如镶嵌在高峡深谷中的一轮新月。绿色的扎西岛浮在碧水之中，背后是巍巍青山，放眼望去，小岛如镶嵌在碧绿的湖水中的一颗宝石，与周围的青山相映成趣。\n",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 21:39:12",
+    "deleted": 0
+  },
+  {
+    "id": 9,
+    "name": "冈仁波齐",
+    "imgUrl": "https://data.tibetcn.com/pictures/mt-kailash12.jpg",
+    "introduction": "冈仁波齐是大山脉冈底斯山的主峰，环绕一周72公里，峰形似金字塔（藏民称象“石磨的把手”），四壁非常对称。由南面望去可见到它著名的标志：由峰顶垂直而下的巨大冰槽与一横向岩层构成的佛教万字格（佛教中精神力量的标志，意为佛法永存，代表着吉祥与护佑。\n",
+    "cratedTime": "2024-02-19 16:54:46",
+    "updateTime": "2024-02-19 21:39:12",
+    "deleted": 0
+  }
+]

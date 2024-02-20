@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "https://www.gov.cn/test/images/images/00123f3c47bd0605856f0e.jpg",
+    "createdTime": "2024-02-20 14:01:51",
+    "updateTime": "2024-02-20 14:01:51",
+    "deleted": 0
+  },
+  {
+    "id": 3,
+    "imgUrl": "https://www.gov.cn/xinwen/2019-08/14/5421209/images/95793bad32484fe3a5c3d357d7382b2e.jpg",
+    "createdTime": "2024-02-20 14:01:51",
+    "updateTime": "2024-02-20 14:01:51",
+    "deleted": 0
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://www.gov.cn/xinwen/2018-02/23/5268244/images/ce134009559f4bf9a95b17dfcdfdaca7.jpg",
+    "createdTime": "2024-02-20 14:01:51",
+    "updateTime": "2024-02-20 14:01:51",
+    "deleted": 0
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://imgpolitics.gmw.cn/attachement/jpg/site2/20210416/f44d3075891421e39f2312.jpg",
+    "createdTime": "2024-02-20 14:01:51",
+    "updateTime": "2024-02-20 14:01:51",
+    "deleted": 0
+  },
+  {
+    "id": 6,
+    "imgUrl": "https://picture.youth.cn/qtdb/202102/W020210212165319425647.jpg",
+    "createdTime": "2024-02-20 14:01:51",
+    "updateTime": "2024-02-20 14:01:51",
+    "deleted": 0
+  }
+]

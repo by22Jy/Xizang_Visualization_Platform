@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "https://img2.baidu.com/it/u=3323110278,540328674&fm=253&fmt=auto&app=120&f=JPEG?w=759&h=506",
+    "createdTime": "2024-02-20 14:14:37",
+    "updateTime": "2024-02-20 14:14:37",
+    "deleted": 0
+  },
+  {
+    "id": 2,
+    "imgUrl": "https://p2.cri.cn/M00/D4/D4/CqgNOlukWsqAEIymAAAAAAAAAAA237.1268x845.png",
+    "createdTime": "2024-02-20 14:14:37",
+    "updateTime": "2024-02-20 14:14:37",
+    "deleted": 0
+  },
+  {
+    "id": 3,
+    "imgUrl": "https://img0.baidu.com/it/u=3935947012,2366384985&fm=253&fmt=auto&app=138&f=JPEG?w=738&h=500",
+    "createdTime": "2024-02-20 14:14:37",
+    "updateTime": "2024-02-20 14:14:37",
+    "deleted": 0
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://p2.cri.cn/M00/5C/FF/CqgNOlplgnCAe7rtAAAAAAAAAAA951.899x599.jpg",
+    "createdTime": "2024-02-20 14:14:37",
+    "updateTime": "2024-02-20 14:14:37",
+    "deleted": 0
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://img2.baidu.com/it/u=2620372823,3881548779&fm=253&fmt=auto&app=138&f=JPEG?w=752&h=500",
+    "createdTime": "2024-02-20 14:14:37",
+    "updateTime": "2024-02-20 14:14:37",
+    "deleted": 0
+  }
+]
