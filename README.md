@@ -9,6 +9,28 @@ In the process of creation... MUC student's sophomore creative works
 
 
 
+## 使用
+
+#### 后端服务
+
+```
+cd back-end
+node app.js
+```
+
+#### 前端服务
+
+```
+cd front-end
+npm run serve
+```
+
+
+
+
+
+#### 开发修改历程
+
 > 2.19 进度及需求分析
 
 ![image-20240219161845964](/Users/bytedance/Library/Application Support/typora-user-images/image-20240219161845964.png)
