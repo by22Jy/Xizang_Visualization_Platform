@@ -33,7 +33,7 @@ npm run serve
 
 > 2.19 进度及需求分析
 
-![image-20240219161845964](/Users/bytedance/Library/Application Support/typora-user-images/image-20240219161845964.png)
+
 
 
 
