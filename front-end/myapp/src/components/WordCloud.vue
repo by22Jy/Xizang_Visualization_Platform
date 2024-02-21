@@ -47,15 +47,6 @@ export default {data() {
       // 配置项
       const option = {
         series: [{
-          title: {
-            text: '丨 最热词云',
-            left: 20,
-            top: 20
-          },
-          grid: {
-
-            containLabel: true
-          },
           type: 'wordCloud',
           shape: 'circle',
           left: 'center',
@@ -70,27 +61,19 @@ export default {data() {
           gridSize: 8,
           drawOutOfBound: false,
           textStyle: {
-            normal: {
-              fontFamily: 'sans-serif',
-              fontWeight: 'bold',
-              // Color可以是一个回调函数或一个颜色字符串
-              color: function () {
-                // Random color
-                return 'rgb(' + [
-                  Math.round(Math.random() * 160),
-                  Math.round(Math.random() * 160),
-                  Math.round(Math.random() * 160)
-                ].join(',') + ')';
-              }
-            },
-            emphasis: {
-              focus: 'self',
-
-              textStyle: {
-                textShadowBlur: 10,
-                textShadowColor: '#333'
-              }
-            },
+            fontWeight: 'bold',
+            fontFamily: 'sans-serif',
+            // Color可以是一个回调函数
+            color: function () {
+              return 'hsl(' + Math.round(Math.random() * 360) + ', 80%, 50%)';
+            }
+          },
+          emphasis: {
+            focus: 'self',
+            textStyle: {
+              textShadowBlur: 10,
+              textShadowColor: '#333'
+            }
           },
           data: [
             {name: '布达拉宫', value: 10000},
@@ -133,7 +116,7 @@ export default {data() {
     top: 0;
     left: 0;
     padding: 10px;
-    color: #fff; /* 或您希望的任何颜色 */
+    color: #fff;
     z-index: 10;
 
 }
