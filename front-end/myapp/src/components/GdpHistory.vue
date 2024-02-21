@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import '@/../public/static/theme/chalk'
 export default {
   data () {
     return {
