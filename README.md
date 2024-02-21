@@ -2,6 +2,11 @@
 # 西藏文旅大数据平台
 In the process of creation... MUC student's sophomore creative works
 
+## 整体效果
+
+<img width="1727" alt="image" src="https://github.com/MucOtto/Xizang_Visualization_Platform/assets/122969909/1883bd62-3fd8-49a3-b2ca-36484cb0628e">
+
+
 #### 技术栈
 
 后端： koa2框架，nodejs, web socket
