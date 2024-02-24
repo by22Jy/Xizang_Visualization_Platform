@@ -28,6 +28,7 @@ node app.js
 
 ```
 cd front-end
+cd myapp
 npm run serve
 ```
 
