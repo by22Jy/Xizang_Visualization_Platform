@@ -29,6 +29,7 @@ node app.js
 ```
 cd front-end
 cd myapp
+yarn
 npm run serve
 ```
 
