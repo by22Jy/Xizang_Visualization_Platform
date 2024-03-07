@@ -1,5 +1,5 @@
 <script>
-import MbiIndex from '@/components/MbiIndex.vue'
+import MbiIndex from '@/components/data-visualization/MbiIndex.vue'
 
 export default {
   data () {

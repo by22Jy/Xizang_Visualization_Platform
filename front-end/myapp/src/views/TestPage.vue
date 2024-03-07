@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import Lasa from "@/components/MapChildren/Lasa.vue";
-import Naqu from "@/components/MapChildren/Naqu.vue";
+import Lasa from "@/components/data-visualization/MapChildren/Lasa.vue";
+import Naqu from "@/components/data-visualization/MapChildren/Naqu.vue";
 export default {
   name: 'GdpRank',
   components: {

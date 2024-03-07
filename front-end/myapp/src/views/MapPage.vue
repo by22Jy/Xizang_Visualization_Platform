@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import XizangMap from '@/components/XizangMap.vue'
+import XizangMap from '@/components/data-visualization/XizangMap.vue'
 export default {
   components: {
     single_map: XizangMap

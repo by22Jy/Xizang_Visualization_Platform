@@ -8,13 +8,14 @@ import WordCloudPage from '@/views/WordCloudPage.vue'
 import PopularAttractionPage from "@/views/PopularAttractionPage.vue";
 import TourismStrategyPage from "@/views/TourismStrategyPage.vue";
 import testPage from "@/views/TestPage.vue";
+import HomePage from "@/components/Layout/HomePage.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    redirect: '/screenPage'
+    redirect: '/home'
   },
   {
     path: '/screenPage',
@@ -47,6 +48,11 @@ const routes = [
   {
     path: '/lasa',
     component: testPage
+  },
+  {
+    path: '/home',
+    component: HomePage
+
   }
 ]
 

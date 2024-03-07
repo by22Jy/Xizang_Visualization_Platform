@@ -6,10 +6,7 @@
       <div>
         <img src="/static/img/header_border_dark.png" alt="">
       </div>
-      <span class="logo">
-        中央民族大学
-<!--        <img src="/static/img/logo.jpg"  alt=""/>-->
-      </span>
+      <span class="el-icon-arrow-left" @click="$router.go(-1)"></span>
       <span class="title">藏族地区文旅大数据平台</span>
       <div class="title-right">
         <span class="datetime">{{ currentTime }}</span>
@@ -49,12 +46,12 @@
 </template>
 
 <script>
-import GdpRank from '@/components/GdpRank.vue'
-import MbiIndex from '@/components/MbiIndex.vue'
-import XizangMap from '@/components/XizangMap.vue'
-import WordCloud from "@/components/WordCloud.vue";
-import PopularAttraction from "@/components/PopularAttraction.vue";
-import GdpHistory from "@/components/GdpHistory.vue";
+import GdpRank from '@/components/data-visualization/GdpRank.vue'
+import MbiIndex from '@/components/data-visualization/MbiIndex.vue'
+import XizangMap from '@/components/data-visualization/XizangMap.vue'
+import WordCloud from "@/components/data-visualization/WordCloud.vue";
+import PopularAttraction from "@/components/data-visualization/PopularAttraction.vue";
+import GdpHistory from "@/components/data-visualization/GdpHistory.vue";
 export default {
   data () {
     return {
@@ -144,16 +141,11 @@ export default {
     font-size: 15px;
     margin-left: 10px;
   }
-  .logo {
+  .el-icon-arrow-lef {
     background-color: #161522;
-    position: absolute;
     left: 0px;
     top: 50%;
     transform: translateY(-80%);
-    img {
-      height: 30px;
-      width: 50px;
-    }
   }
 }
 .screen-body {
@@ -269,6 +261,10 @@ export default {
   z-index: 1;
   left: 0;
   right: 0;
+}
+
+.el-icon-arrow-left:before{
+
 }
 
 </style>

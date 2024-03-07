@@ -22,14 +22,14 @@
 
 <script>
 import axios from 'axios'
-import GdpRank from "@/components/GdpRank.vue";
-import Ali from "@/components/MapChildren/Ali.vue";
-import Shannan from "@/components/MapChildren/Shannan.vue";
-import Rike from "@/components/MapChildren/Rike.vue";
-import Naqu from "@/components/MapChildren/Naqu.vue";
-import Linzhi from "@/components/MapChildren/Linzhi.vue";
-import Lasa from "@/components/MapChildren/Lasa.vue";
-import Changdu from "@/components/MapChildren/Changdu.vue";
+import GdpRank from "@/components/data-visualization/GdpRank.vue";
+import Ali from "@/components/data-visualization/MapChildren/Ali.vue";
+import Shannan from "@/components/data-visualization/MapChildren/Shannan.vue";
+import Rike from "@/components/data-visualization/MapChildren/Rike.vue";
+import Naqu from "@/components/data-visualization/MapChildren/Naqu.vue";
+import Linzhi from "@/components/data-visualization/MapChildren/Linzhi.vue";
+import Lasa from "@/components/data-visualization/MapChildren/Lasa.vue";
+import Changdu from "@/components/data-visualization/MapChildren/Changdu.vue";
 
 export default {
   data () {

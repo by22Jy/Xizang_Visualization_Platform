@@ -7,6 +7,7 @@ import './assets/css/global.less'
 import SocketService from '@/utils/socket_service'
 import * as echarts from 'echarts'
 import 'echarts-wordcloud/dist/echarts-wordcloud.min'
+import '@/utils/element-ui'
 
 // 后端的ws连接
 SocketService.Instance.connect()
@@ -18,6 +19,8 @@ axios.defaults.baseURL = 'http://localhost:8888/api'
 Vue.prototype.$http = axios
 // 设置地图里的交互显示功能
 Vue.prototype.$popUp = false
+
+
 
 // echarts的全局挂载
 Vue.prototype.$echarts = echarts

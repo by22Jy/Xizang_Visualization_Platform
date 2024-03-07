@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import GdpHistory from "@/components/GdpHistory.vue";
+import GdpHistory from "@/components/data-visualization/GdpHistory.vue";
 export default {
   name: 'GdpRank',
   components: {

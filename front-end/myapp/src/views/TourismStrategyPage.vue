@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TourismStrategy from "@/components/TourismStrategy.vue";
+import TourismStrategy from "@/components/data-visualization/TourismStrategy.vue";
 export default {
   name: 'GdpRank',
   components: {
