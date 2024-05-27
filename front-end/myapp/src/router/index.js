@@ -8,13 +8,20 @@ import WordCloudPage from '@/views/map/WordCloudPage.vue'
 import PopularAttractionPage from '@/views/map/PopularAttractionPage.vue'
 import TourismStrategyPage from '@/views/map/TourismStrategyPage.vue'
 import testPage from '@/views/map/TestPage.vue'
+import CardStack from "@/views/CardStack.vue";
+import HomePage from "@/views/HomePage.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    redirect: '/screenPage'
+    component: CardStack
+  },
+  {
+    path: '/home',
+    name: 'HomePage',
+    component: HomePage
   },
   {
     path: '/screenPage',

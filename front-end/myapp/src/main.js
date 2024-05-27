@@ -7,6 +7,8 @@ import './assets/css/global.less'
 import SocketService from '@/utils/socket_service'
 import * as echarts from 'echarts'
 import 'echarts-wordcloud/dist/echarts-wordcloud.min'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
 // 后端的ws连接
 SocketService.Instance.connect()
@@ -21,6 +23,8 @@ Vue.prototype.$popUp = false
 
 // echarts的全局挂载
 Vue.prototype.$echarts = echarts
+
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 new Vue({
