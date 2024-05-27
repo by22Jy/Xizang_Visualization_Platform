@@ -22,18 +22,17 @@
   </div>
 </template>
 
-
 <script>
 export default {
-  data() {
+  data () {
     return {
       allData: null
     }
   },
-  created() {
+  created () {
     this.$socket.registerCallBack('attractionData', this.getData)
   },
-  mounted() {
+  mounted () {
     this.$socket.send({
       action: 'getData',
       socketType: 'attractionData',
@@ -41,14 +40,14 @@ export default {
       value: ''
     })
   },
-  destroyed() {
+  destroyed () {
     this.$socket.unRegisterCallBack('attractionData')
   },
   methods: {
-    getData(ret) {
+    getData (ret) {
       this.allData = ret
       console.log(this.allData)
-    },
+    }
   }
 }
 </script>

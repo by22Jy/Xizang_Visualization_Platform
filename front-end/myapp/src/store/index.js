@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
@@ -9,19 +9,19 @@ export default new Vuex.Store({
     selectedProvince: ''
   },
   mutations: {
-    setShowPopup(state, value) {
-      state.showPopup = value;
+    setShowPopup (state, value) {
+      state.showPopup = value
     },
-    setSelectedProvince(state, value) {
-      state.selectedProvince = value;
+    setSelectedProvince (state, value) {
+      state.selectedProvince = value
     }
   },
   actions: {
-    togglePopup({ commit }, value) {
-      commit('setShowPopup', value);
+    togglePopup ({ commit }, value) {
+      commit('setShowPopup', value)
     },
-    changeProvince({ commit }, value) {
-      commit('setSelectedProvince', value);
+    changeProvince ({ commit }, value) {
+      commit('setSelectedProvince', value)
     }
   }
-});
+})

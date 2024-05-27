@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import WordCloud from '@/components/WordCloud.vue'
+import WordCloud from '@/components/map/WordCloud.vue'
 export default {
   name: 'GdpRank',
   components: {

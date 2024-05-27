@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import MbiIndexPage from '@/views/MbiIndexPage.vue'
-import GdpPage from '@/views/GdpPage.vue'
-import MapPage from '@/views/MapPage.vue'
-import ScreenPage from '@/views/ScreenPage.vue'
-import WordCloudPage from '@/views/WordCloudPage.vue'
-import PopularAttractionPage from "@/views/PopularAttractionPage.vue";
-import TourismStrategyPage from "@/views/TourismStrategyPage.vue";
-import testPage from "@/views/TestPage.vue";
+import MbiIndexPage from '@/views/map/MbiIndexPage.vue'
+import GdpPage from '@/views/map/GdpPage.vue'
+import MapPage from '@/views/map/MapPage.vue'
+import ScreenPage from '@/views/map/ScreenPage.vue'
+import WordCloudPage from '@/views/map/WordCloudPage.vue'
+import PopularAttractionPage from '@/views/map/PopularAttractionPage.vue'
+import TourismStrategyPage from '@/views/map/TourismStrategyPage.vue'
+import testPage from '@/views/map/TestPage.vue'
 
 Vue.use(VueRouter)
 

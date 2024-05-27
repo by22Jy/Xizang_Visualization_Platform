@@ -4,7 +4,7 @@
     <canvas class="canvas-wrap" id="triangle-lost-in-space" resize="true"></canvas>
     <header class="screen-header">
       <div>
-        <img src="/static/img/header_border_dark.png" alt="">
+        <img src="/img/header_border_dark.png" alt="">
       </div>
       <span class="logo">
         中央民族大学
@@ -49,12 +49,12 @@
 </template>
 
 <script>
-import GdpRank from '@/components/GdpRank.vue'
-import MbiIndex from '@/components/MbiIndex.vue'
-import XizangMap from '@/components/XizangMap.vue'
-import WordCloud from '@/components/WordCloud.vue'
-import PopularAttraction from '@/components/PopularAttraction.vue'
-import GdpHistory from '@/components/GdpHistory.vue'
+import GdpRank from '@/components/map/GdpRank.vue'
+import MbiIndex from '@/components/map/MbiIndex.vue'
+import XizangMap from '@/components/map/XizangMap.vue'
+import WordCloud from '@/components/map/WordCloud.vue'
+import PopularAttraction from '@/components/map/PopularAttraction.vue'
+import GdpHistory from '@/components/map/GdpHistory.vue'
 export default {
   data () {
     return {

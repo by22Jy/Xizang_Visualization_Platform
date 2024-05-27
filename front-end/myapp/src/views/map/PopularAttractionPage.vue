@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import PopularAttraction from '@/components/PopularAttraction.vue';
+import PopularAttraction from '@/components/map/PopularAttraction.vue';
 export default {
   name: 'GdpRank',
   components: {
