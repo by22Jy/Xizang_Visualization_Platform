@@ -52,29 +52,29 @@
 import GdpRank from '@/components/GdpRank.vue'
 import MbiIndex from '@/components/MbiIndex.vue'
 import XizangMap from '@/components/XizangMap.vue'
-import WordCloud from "@/components/WordCloud.vue";
-import PopularAttraction from "@/components/PopularAttraction.vue";
-import GdpHistory from "@/components/GdpHistory.vue";
+import WordCloud from '@/components/WordCloud.vue'
+import PopularAttraction from '@/components/PopularAttraction.vue'
+import GdpHistory from '@/components/GdpHistory.vue'
 export default {
   data () {
     return {
-      currentTime: this.getCurrentTime(),
+      currentTime: this.getCurrentTime()
     }
   },
-  mounted() {
+  mounted () {
     this.interval = setInterval(() => {
-      this.currentTime = this.getCurrentTime();
-    }, 1000);
+      this.currentTime = this.getCurrentTime()
+    }, 1000)
   },
-  beforeDestroy() {
+  beforeDestroy () {
     // 清除计时器
-    clearInterval(this.interval);
+    clearInterval(this.interval)
   },
   methods: {
-    getCurrentTime() {
-      const now = new Date;
-      const localTime = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
-      return localTime.toISOString().slice(0, 19).replace('T', ' ');
+    getCurrentTime () {
+      const now = new Date()
+      const localTime = new Date(now.getTime() - now.getTimezoneOffset() * 60000)
+      return localTime.toISOString().slice(0, 19).replace('T', ' ')
     }
   },
   components: {
@@ -98,8 +98,6 @@ export default {
   margin: 0 !important;
   z-index: 100;
 }
-
-
 
 .screen-container {
   width: 100%;
@@ -238,8 +236,6 @@ export default {
   padding: 10px; /* 区块的内边距 */
   border-radius: 10px; /* 若需要圆角可以调整此值 */
 }
-
-
 
 /* 如果您希望顶部和底部也有边界线，可以为.header和.screen-body添加边界线 */
 .screen-header,
