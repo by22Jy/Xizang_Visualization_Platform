@@ -7,6 +7,13 @@ module.exports = {
   lintOnSave: false,
   devServer:{
     port:8999,
-    open:true
+    open:true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8000',  // 目标API地址
+        changeOrigin: true,
+        pathRewrite: { '^/api': '' },
+      },
+    },
   }
 }

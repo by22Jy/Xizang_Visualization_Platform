@@ -10,18 +10,45 @@ import TourismStrategyPage from '@/views/map/TourismStrategyPage.vue'
 import testPage from '@/views/map/TestPage.vue'
 import CardStack from "@/views/CardStack.vue";
 import HomePage from "@/views/HomePage.vue";
+import CulturePage from "@/views/CulturePage.vue";
+import AIPage from "@/views/AIPage.vue";
+import TravelPage from "@/views/TravelPage.vue";
+import AliGdp from "@/views/eco/AliGdp.vue";
+import EcoGdp from "@/views/EcoGdp.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'Welcome',
     component: CardStack
   },
   {
     path: '/home',
     name: 'HomePage',
     component: HomePage
+  },
+  {
+    path: '/culture',
+    name: '/CulturePage',
+    component: CulturePage
+  },
+  {
+    path: '/ai',
+    component: AIPage
+  },
+  {
+    path: '/eco',
+    component: EcoGdp
+  },
+  {
+    path: '/test',
+    component: AliGdp
+  },
+  {
+    path: '/travel',
+    component: TravelPage
   },
   {
     path: '/screenPage',

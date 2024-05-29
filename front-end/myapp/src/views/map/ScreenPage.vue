@@ -6,6 +6,9 @@
       <div>
         <img src="/img/header_border_dark.png" alt="">
       </div>
+      <button @click="backHome">
+        <img class="arrow" src="/static/img/arrow.png">
+      </button>
       <span class="logo">
         中央民族大学
 <!--        <img src="/static/img/logo.jpg"  alt=""/>-->
@@ -55,6 +58,8 @@ import XizangMap from '@/components/map/XizangMap.vue'
 import WordCloud from '@/components/map/WordCloud.vue'
 import PopularAttraction from '@/components/map/PopularAttraction.vue'
 import GdpHistory from '@/components/map/GdpHistory.vue'
+import {useRouter} from "vue-router/composables";
+
 export default {
   data () {
     return {
@@ -62,6 +67,7 @@ export default {
     }
   },
   mounted () {
+    this.router = useRouter()
     this.interval = setInterval(() => {
       this.currentTime = this.getCurrentTime()
     }, 1000)
@@ -75,7 +81,11 @@ export default {
       const now = new Date()
       const localTime = new Date(now.getTime() - now.getTimezoneOffset() * 60000)
       return localTime.toISOString().slice(0, 19).replace('T', ' ')
+    },
+    backHome() {
+      this.router.push({ name: 'HomePage' });
     }
+
   },
   components: {
     GdpRank,
@@ -156,9 +166,9 @@ export default {
 }
 .screen-body {
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
   .screen-left {
     height: 88%;
     width: 27.6%;
@@ -265,6 +275,22 @@ export default {
   z-index: 1;
   left: 0;
   right: 0;
+}
+
+  .arrow{
+    position: fixed;
+    top: 2rem;
+    left: 1rem;
+    width: 48px;
+    aspect-ratio: 1;
+    padding: 0;
+    border-radius: 12px;
+    border: 0;
+    background: transparent;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    color: white;
 }
 
 </style>

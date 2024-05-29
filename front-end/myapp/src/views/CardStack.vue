@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="content">
-      <h1>西藏文旅</h1>
+      <h1>XiZang</h1>
       <p>
         西藏是个神秘的地方，有着灿烂的阳光，洁白的云朵，纯净的天空，稀薄的空气，连绵的雪山，安静的湖泊。 到了拉萨，我看见周围都是高山，山像连绵不断的长城，山上连一棵树木也没有，全是奇形怪状的石头。
         一路朝拜，从不回首。有的耗尽家财，有的途中抱恙，但依然向前。朴实无华，人间天堂，大美西藏！我看见一座座山一座座山川，一座座山川相连，呀啦索那就是青藏高原。
@@ -26,7 +26,7 @@ export default {
   setup() {
     const stack = ref(null);
     const cardImages = ref([
-      "/static/img/Yaks-Kailash-Manasarovar",
+      "/static/img/Yaks-Kailash-Manasarovar.jpg",
       "/static/img/NamTso_scene.jpg",
       "/static/img/Mount_Everest_North_Face.jpg",
       "/static/img/Potala_palace23.jpg",
@@ -107,32 +107,41 @@ export default {
 }
 
 body {
-  background-color: #0d0a0b;
-  background: linear-gradient(145deg, #55566a 0%, #131318 76%);
+  /* Adjust the gradient to brighter or more saturated colors */
+  background-color: #ad9393; /* Consider changing the base color to something lighter */
+  background: linear-gradient(145deg, #6677aa 0%, #334455 76%); /* Brighter gradient */
 }
 
 main {
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   place-items: center;
   min-height: 100vh;
-  background-color: #0d0a0b;
-
+  //background-color: #263a39;
 }
 
 /* Content */
 
 .content {
+  display: flex;
+  flex-direction: column;  /* Ensures that children are stacked vertically */
+  align-items: flex-start; /* Aligns items to the left */
   padding-left: 120px;
   color: #c7c7c7c9;
+}
+
+.content h1, .content p, .btn {
+  width: 100%; /* Ensures they take full width of the .content div */
 }
 
 .content h1 {
   font-family: "Dancing Script", cursive;
   font-size: clamp(2.5rem, 4vw, 6rem);
   font-weight: 700;
-  background: -webkit-linear-gradient(0deg, #f76591, #ffc16f);
+  background: -webkit-linear-gradient(0deg, #ff8c91, #ffcc6f);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -143,13 +152,14 @@ main {
 
 .content p {
   font-size: clamp(0.9rem, 4vw, 1.2rem);
+  color: black;
   line-height: 1.6;
   padding-right: 100px;
 }
 
 .btn {
-  background-color: #f76591;
-  background-image: linear-gradient(-180deg, #ffc16f, #f76591);
+  background-color: #ff6575; /* A more vivid pink */
+  background-image: linear-gradient(-180deg, #ffcc6f, #ff6575);
   font-size: clamp(0.8rem, 8vw, 0.9rem);
   font-weight: 600;
   color: #fff;
@@ -171,7 +181,7 @@ main {
 }
 
 .btn:hover {
-  box-shadow: 0 4px 10px rgba(247, 101, 145, 0.5);
+  box-shadow: 0 4px 10px rgba(255, 101, 145, 0.6);
   transform: scale(0.98);
 }
 
@@ -225,7 +235,7 @@ main {
   transform: translate(var(--x), -50%) scale(0.95);
 }
 
-.card:nth-last-child(2) {
+.c:nth-last-child(2) {
   --x: calc(-50%);
   transform: translate(var(--x), -50%) scale(1);
 }

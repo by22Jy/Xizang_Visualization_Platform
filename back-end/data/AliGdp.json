@@ -1,0 +1,22 @@
+[
+  {"id": 1, "year": "1999", "Gdp": 2.73, "first": 1.26, "second": 0.48, "third": 1},
+  {"id": 2, "year": "2000", "Gdp": 3.24, "first": 1.81, "second": 0.53, "third": 0.91},
+  {"id": 3, "year": "2001", "Gdp": 3.89, "first": 1.88, "second": 0.75, "third": 1.26},
+  {"id": 4, "year": "2002", "Gdp": 4.62, "first": 2.14, "second": 0.84, "third": 1.65},
+  {"id": 5, "year": "2004", "Gdp": 8, "first": 2.56, "second": 0.96, "third": 4.48},
+  {"id": 6, "year": "2005", "Gdp": 9.61, "first": 2.29, "second": 1.49, "third": 5.83},
+  {"id": 7, "year": "2006", "Gdp": 11.33, "first": 2.64, "second": 2.96, "third": 5.73},
+  {"id": 8, "year": "2007", "Gdp": 13.43, "first": 2.85, "second": 3.31, "third": 7.27},
+  {"id": 9, "year": "2008", "Gdp": 14.7, "first": 3.28, "second": 3.47, "third": 7.95},
+  {"id": 10, "year": "2009", "Gdp": 16.34, "first": 3.45, "second": 3.99, "third": 8.9},
+  {"id": 11, "year": "2010", "Gdp": 18.48, "first": 3.65, "second": 4.71, "third": 10.12},
+  {"id": 12, "year": "2011", "Gdp": 21.3, "first": 3.99, "second": 5.88, "third": 11.43},
+  {"id": 13, "year": "2012", "Gdp": 25.63, "first": 4.31, "second": 7.09, "third": 14.23},
+  {"id": 14, "year": "2013", "Gdp": 28.9, "first": 4.69, "second": 8.5, "third": 15.71},
+  {"id": 15, "year": "2014", "Gdp": 32.92, "first": 5.06, "second": 10.29, "third": 17.57},
+  {"id": 16, "year": "2015", "Gdp": 37.12, "first": 5.36, "second": 11.6, "third": 20.16},
+  {"id": 17, "year": "2016", "Gdp": 41.43, "first": 5.68, "second": 12.94, "third": 22.81},
+  {"id": 18, "year": "2017", "Gdp": 47.24, "first": 6.66, "second": 15.55, "third": 25.03},
+  {"id": 19, "year": "2018", "Gdp": 52.62, "first": 6.68, "second": 19.12, "third": 26.82},
+  {"id": 20, "year": "2019", "Gdp": 62.4, "first": 6.8, "second": 19.99, "third": 35.25}
+]
